@@ -7,6 +7,7 @@ const cellClicked = function (e) {
 
   // read from global state to start as prof suggested
   // TODO: [rfc] Alternative suggestions?
-  td.style.background = selectedColor;
+  const colorWell = document.getElementById('colorWell');
+  td.style.background = colorWell.value;
   e.target.outerHTML = td.outerHTML;
 };
