@@ -1,0 +1,14 @@
+.cell {
+  width: 10px; /* cell sizes */
+  height: 10px;
+  padding: 0px; /* pad prevents cells from being square */
+  border: 1px solid white; /* add contrast between individual cells */
+}
+
+/* temporary classes to set up non-default inital color */
+/* to be overridden by javascript which sets node color from initial state */
+
+.control-buttons-container {
+  display: block;
+  background-color: lightpink; /* temporarily pink for visibility */
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/grid-app.css" />
+    <!-- TODO: properly import modules so the list of scripts stays constant length -->
+    <script src="./js/populateGrid.js"></script>
+    <script src="./js/constants.js"></script>
+    <script src="./js/setColor.js"></script>
+    <title>Assignment 3</title>
+  </head>
+  <body class="container">
+    <h1>Home</h1>
+    <div class="control-buttons-container">
+        <!-- TODO: add all controls -->
+        <button class=>
+            unbound button
+        </button>
+    </div>
+    <div id="grid"></div>
+    <script>
+      const { colorClass, colorStyle, tableID, gridDims } = initial;
+      populateGrid("grid", gridDims);
+    </script>
+  </body>
+</html>
