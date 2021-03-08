@@ -15,6 +15,9 @@
     <script src="./js/populateGrid.js"></script>
     <script src="./js/constants.js"></script>
     <script src="./js/setColor.js"></script>
+    <script src="./js/colorAllCells.js"></script>
+    <script src="./js/colorAllUncolored.js"></script>
+    <script src="./js/clearAll.js"></script>
     <title>Assignment 3</title>
   </head>
   <body class="container">
@@ -23,6 +26,19 @@
         <!-- TODO: add all controls -->
         <button class=>
             unbound button
+        </button>
+        <button onclick="colorAllCells()">
+          Fill All
+        </button>
+        <button onclick="colorAllUncolored()">
+            Fill All Uncolored
+        </button>
+        
+        <label for="colorWell">Color: </label>
+        <input type="color" id="colorWell"> 
+
+        <button onclick="clearAll()">
+          Clear All
         </button>
     </div>
     <div id="grid"></div>
